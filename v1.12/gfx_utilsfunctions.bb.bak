@@ -1,0 +1,8 @@
+Function GU_HandleImageCenter(myimage)
+
+	iw=imagewidth(myimage)
+	ih=imageheight(myimage)
+
+	handleimage(myimage,iw/2,ih/2)
+
+end Function 
